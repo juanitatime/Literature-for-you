@@ -1,0 +1,71 @@
+/* 
+Heading
+
+font-family: 'Great Vibes', cursive;
+
+Paragraph
+font-family: 'Noto Serif Display', serif;
+font-family: 'IBM Plex Serif', serif; */
+
+
+#header {
+    padding: 30px 2px;
+    background: #d0d7c3 url("book.gif") no-repeat center;
+}
+img {
+    display: inline;
+    position:static;
+    height: 300px;
+    width: 300px;
+    
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 0px;
+    position: static;
+}
+span {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    
+}
+#section-1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Noto Serif Display', serif;
+    background-color: #ffe6e3;
+}
+#section-2 {
+    position: relative;
+}
+#section-2::before {
+    content: "";
+    background-image: url('light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left:0px;
+    opacity: 0.50;
+}
+.part-one {
+    position: relative;
+    font-family: 'Noto Serif Display', serif;
+    text-align:justify;
+    padding: 10px 200px 10px 200px;
+    line-height: 30px;
+    color: #000;
+}
+.part-two {
+    position: relative;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: justify;
+    padding: 10px 200px 10px 200px;
+    line-height: 30px;
+    color: #000;
+}
